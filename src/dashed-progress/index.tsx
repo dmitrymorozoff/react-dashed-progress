@@ -22,7 +22,7 @@ export class DashedProgress extends React.PureComponent<IProps, {}> {
         countBars: 30,
         trailThickness: 3,
         strokeThickness: 5,
-        value: 15,
+        value: 0,
         strokeLinecap: "round",
         trailColor: "#354A5E",
         strokeColor: "#41B883",
@@ -122,7 +122,7 @@ export class DashedProgress extends React.PureComponent<IProps, {}> {
                         fontFamily="Arial"
                         fill={tooltipColor}
                     >
-                        {value}
+                        {value}%
                     </text>
                 )}
             </svg>

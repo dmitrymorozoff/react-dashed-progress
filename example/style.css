@@ -36,7 +36,6 @@
 .wrapper {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 2rem 0;
     border: 1px solid #e9eaee;
@@ -58,5 +57,16 @@
 }
 
 .code {
+    width: 100%;
     margin: 1rem 0 1.5rem 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.slider {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
