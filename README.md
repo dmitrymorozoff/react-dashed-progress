@@ -44,7 +44,7 @@ import { DashedProgress } from "react-dashed-progress";
 export class App extends React.Component {
     render() {
         return (
-            <DashedProgress value={10} />
+            <DashedProgress value={5} />
         );
     }
 }
